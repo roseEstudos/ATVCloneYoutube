@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clone YouTube</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="imgs/isologoYoutube.png" type="image/x-icon">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="youtube-header">
+            <div class="header-left">
+                <a href="#" class="menu-icon"><i class="fa-solid fa-bars"></i></a>
+                
+                <a href="#" class="logo-link">
+                    <img src="./imgs/logoYoutube.png" alt="YouTube Home">
+                </a>
+            </div>
+
+            <div class="header-center">
+                <div class="search-container">
+                    <input type="text" placeholder="Pesquisar">
+                    <button class="search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <div class="search-mic">
+                    <a href="#" class="mic">
+                        <i class="fa-solid fa-microphone"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <div class="action-plus">
+                    <a href="#">
+                        <i class="fa-solid fa-plus"></i>Criar
+                    </a>
+                </div>
+
+                <a href="#" class="action-icon" title="Criar">
+                    <i class="fa-regular fa-bell"></i>
+                </a>
+
+                <a href="#" class="profile-link">
+                    <img src="./imgs/perfil1.png" alt="Perfil">
+                </a>
+            </div>
+        </header>
+
+        <!-- SECTION - Filtros por assuntos -->
+         <section class="filters-youtube">
+            <div class="category-scroll-container">
+                <ul class="category-list">
+                    <li class="category-item active"><a href="#">Tudo</a></li>
+
+                    <li class="category-item"><a href="#">Músicas</a></li>
+
+                    <li class="category-item"><a href="#">Drama Coreano</a></li>
+
+                    <li class="category-item"><a href="#">Anime</a></li>
+
+                    <li class="category-item"><a href="#">Jogos</a></li>
+
+                    <li class="category-item"><a href="#">Mixes</a></li>
+
+                    <li class="category-item"><a href="#">Podcasts</a></li>
+
+                    <li class="category-item"><a href="#">Lista de reprodução</a></li>
+
+                    <li class="category-item"><a href="#">Quadrinhos</a></li>
+
+                    <li class="category-item"><a href="#">Eletropop</a></li>
+
+                    <li class="category-item"><a href="#">Ao vivo</a></li>
+
+                    <li class="category-item"><a href="#">Inteligência artificila</a></li>
+
+                    <li class="category-item"><a href="#">Banda sonora</a></li>
+
+                    <li class="category-item"><a href="#">Filmes</a></li>
+
+                    <li class="category-item"><a href="#">Jogo de ação e aventuras</a></li>
+                </ul>
+            </div>
+
+            <button class="scroll-button right-arrow">></button>
+         </section>
+
+        <!-- NAV -->
+        <nav>
+            <div class="menu-vertical">
+                <div class="menu-icons">
+                    <div class="icon">
+                        <a href="#"><i class="fa-solid fa-home"></i>Início</a>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#"><img src="./imgs/iconeYTShorts.png" alt="YouTube shorts">Shorts</a>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#"><img src="./imgs/iconeInscricoes.png" alt="Suas inscrições">Inscrições</a>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#"><i class="fa-regular fa-user-circle"></i>Você</a>
+                    </div>
+
+                    <div class="icon">
+                        <a href="#"><i class="fas fa-download"></i>Downloads</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- SECTION - Card dos vídeos -->
+         <section class="video-grid-section">
+            <article class="video-card sponsored-card">
+                <a href="https://glitchproductions.store/" class="thumbnail-link" target="_blank">
+                    <img src="./imgs/thumbnail.png" alt="Propaganda da Glitch">
+                </a>
+
+                <div class="card-content">
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="https://glitchproductions.store/" target="_blank">The Glitch Productions Store</a>
+                        </h3>
+
+                        <div class="video-metadata">
+                            <span class="channel-name">'Patrocinado' · Glitch</span>
+
+                            <span class="views-time">1 Mi visualizações · há 5 semanas</span>
+                            <div class="sponsored-actions">
+                                <button class="action-button">Assistir</button>
+                                <button class="action-button primary-button">Saiba mais</button>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+            </article>
+
+            <article class="video-card">
+                <a href="#" class="thumbnail-link">
+                    <img src="./imgs/thumbnail1.png" alt="Capítulo 01 de O incrível circo digital">
+                    <span class="video-duration">24:45</span>
+                </a>
+
+                <div class="card-content">
+                    <a href="#" class="channel-avatar">
+                        <img  src="./imgs/perfil.png" alt="Perfil da Glitch" class="perfil">
+                    </a>
+
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="#">O Incrível Circo Digital: Piloto</a>
+                        </h3>
+
+                        <div class="video-metadata">
+                            <a href="#" class="channel-name">Glitch</a>
+                            <span class="views-time">223 mil visualizações · há 3 horas</span>
+                        </div>
+                    </div>
+                    <button class="more-options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+
+             <article class="video-card">
+                <a href="#" class="thumbnail-link">
+                    <img src="./imgs/thumbnail2.png" alt="Capítulo 01 de O incrível circo digital">
+                    <span class="video-duration">25:14</span>
+                </a>
+
+                <div class="card-content">
+                    <a href="#" class="channel-avatar">
+                        <img  src="./imgs/perfil.png" alt="Perfil da Glitch" class="perfil">
+                    </a>
+
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="#">O Incrível Circo Digital episódio 02: Desespeiro no desfiladeiro doce!</a>
+                        </h3>
+
+                        <div class="video-metadata">
+                            <a href="#" class="channel-name">Glitch</a>
+                            <span class="views-time">500 mil visualizações · há 3 horas</span>
+                        </div>
+                    </div>
+                    <button class="more-options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+
+             <article class="video-card">
+                <a href="#" class="thumbnail-link">
+                    <img src="./imgs/thumbnail3.png" alt="Capítulo 01 de O incrível circo digital">
+                    <span class="video-duration">24:43</span>
+                </a>
+
+                <div class="card-content">
+                    <a href="#" class="channel-avatar">
+                        <img  src="./imgs/perfil.png" alt="Perfil da Glitch" class="perfil">
+                    </a>
+
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="#">O Incrível Circo Digital - episódio 03: Mistério da Mansão Mildenhail</a>
+                        </h3>
+
+                        <div class="video-metadata">
+                            <a href="#" class="channel-name">Glitch</a>
+                            <span class="views-time">23 mi visualizações · há 3 horas</span>
+                        </div>
+                    </div>
+                    <button class="more-options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+
+             <article class="video-card">
+                <a href="#" class="thumbnail-link">
+                    <img src="./imgs/thumbnail4.png" alt="Capítulo 01 de O incrível circo digital">
+                    <span class="video-duration">23:20</span>
+                </a>
+
+                <div class="card-content">
+                    <a href="#" class="channel-avatar">
+                        <img  src="./imgs/perfil.png" alt="Perfil da Glitch" class="perfil">
+                    </a>
+
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="#">O Incrível Circo Digital - episódio 04: Um dia a Máscara cai</a>
+                        </h3>
+
+                        <div class="video-metadata">
+                            <a href="#" class="channel-name">Glitch</a>
+                            <span class="views-time">223 mi visualizações · há 3 horas</span>
+                        </div>
+                    </div>
+                    <button class="more-options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+
+             <article class="video-card">
+                <a href="#" class="thumbnail-link">
+                    <img src="./imgs/thumbnail5.png" alt="Capítulo 01 de O incrível circo digital">
+                    <span class="video-duration">25:33</span>
+                </a>
+
+                <div class="card-content">
+                    <a href="#" class="channel-avatar">
+                        <img  src="./imgs/perfil.png" alt="Perfil da Glitch" class="perfil">
+                    </a>
+
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="#">O Incrível Circo Digital - episódio 05: Sem título</a>
+                        </h3>
+
+                        <div class="video-metadata">
+                            <a href="#" class="channel-name">Glitch</a>
+                            <span class="views-time">223 mil visualizações · há 3 horas</span>
+                        </div>
+                    </div>
+                    <button class="more-options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+
+             <article class="video-card">
+                <a href="#" class="thumbnail-link">
+                    <img src="./imgs/thumbnail6.png" alt="Capítulo 01 de O incrível circo digital">
+                    <span class="video-duration">33:56</span>
+                </a>
+
+                <div class="card-content">
+                    <a href="#" class="channel-avatar">
+                        <img  src="./imgs/perfil.png" alt="Perfil da Glitch" class="perfil">
+                    </a>
+
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="#">O Incrível Circo Digital - episódio 06: Todos ganham armas</a>
+                        </h3>
+
+                        <div class="video-metadata">
+                            <a href="#" class="channel-name">Glitch</a>
+                            <span class="views-time">223 mil visualizações · há 3 horas</span>
+                        </div>
+                    </div>
+                    <button class="more-options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="video-card mix-card">
+                <a href="#" class="thumbnail-link">
+                    <img src="./imgs/thumbnail1.png" alt="Playlist da série animada o incrível circo digital">
+                    <span class="mix-overlay">
+                        <i class="fa-solid fa-shuffle"></i>Mix
+                    </span>
+                </a>
+
+                <div class="card-content">
+                    <div class="card-details">
+                        <h3 class="video-title">
+                            <a href="#">Mix de todos os expisódios de: O Incrível circo digital</a>
+                        </h3>
+
+                        <div class="metadata">
+                            <span class="channel-name">Glitch</span>
+                            <span class="views-time"> · Atualizado há 1 mês</span>
+                        </div>
+                    </div>
+                    <button class="more-options">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+         </section>
+    </body>
+</html>
